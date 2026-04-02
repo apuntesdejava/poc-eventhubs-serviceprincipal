@@ -1,0 +1,11 @@
+
+###
+# curl -X POST "http://localhost:8080/eventhubs/send?topic=mi-event-hub"
+#         -H "Content-Type: text/plain"
+#         -d "Hola desde Quarkus con Service Principal"
+POST http://localhost:8080/eventhubs/send?topic=mi-event-hub
+Content-Type: text/plain
+
+Hola desde Quarkus con Service Principal, hoy 1 de abril de 2026
+
+###
